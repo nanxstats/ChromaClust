@@ -16,6 +16,20 @@ from `renv.lock`. This will create a project-specific library under
 `renv/` and create an `.Rprofile` to use that library when the project
 is opened.
 
+## Directory structure
+
+- `R/`: R scripts used for the project. Files are named with numerical
+  prefixes, indicating the order in which they should be executed for
+  successful run-through.
+- `output/`: Saves model snapshots for future reference or reuse.
+  Also, important intermediate results generated during data
+  preprocessing and model training and stored here.
+- `images/`: All graphical outputs generated during the analysis,
+  primarily aimed at visualizing the model's performance and
+  characteristics, are stored here.
+- `data/`: Stores the input dataset used in the project.
+  See below on the example data.
+
 ## Data
 
 todo
