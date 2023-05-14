@@ -32,7 +32,14 @@ is opened.
 
 ## Data
 
-todo
+To run the analysis on the example data, first use
+
+```shell
+git lfs install
+git clone https://github.com/nanxstats/ChromaClust.git
+git clone https://huggingface.co/datasets/nanxstats/movie-poster-5k
+unzip movie-poster-5k/data/movie-poster-5k.zip -d ChromaClust/data/
+```
 
 ## Image viewer by color topics
 
