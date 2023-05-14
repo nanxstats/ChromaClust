@@ -40,4 +40,11 @@ A minimal Shiny app is built for easy review of images under
 the same color topic or mixture of topics.
 To use the app, open the project and run through `R/5-exemplar.R`.
 
+The example below shows a common pattern used from the combination of
+their three most prominent color topics:
+
+- Dark color background (topic 7).
+- High contrast color title (topic 9).
+- Protagonist with skin color shown in the foreground (topic 10).
+
 ![Shiny app for viewing images by color topics.](images/exemplar.png)
