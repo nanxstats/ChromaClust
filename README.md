@@ -3,7 +3,7 @@
 Image color topic modeling using
 [fastTopics](https://github.com/stephenslab/fastTopics).
 
-The motivation is from a final project of mine for the course
+The original idea is from my final project for the course
 HG48600: Fundamentals of Computational Biology: Models and Inference
 ([poster](https://nanx.me/posters/chromaclust-poster-hg48600.pdf)).
 
@@ -40,8 +40,8 @@ A minimal Shiny app is built for easy review of images under
 the same color topic or mixture of topics.
 To use the app, open the project and run through `R/5-exemplar.R`.
 
-The example below shows a common pattern used from the combination of
-their three most prominent color topics:
+The example below shows a pattern from the combination of
+three color topics:
 
 - Dark color background (topic 7).
 - High contrast color title (topic 9).
