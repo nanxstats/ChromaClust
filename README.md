@@ -3,7 +3,11 @@
 Image color topic modeling using
 [fastTopics](https://github.com/stephenslab/fastTopics).
 
-## renv
+The motivation is from a final project of mine for the course
+HG48600: Fundamentals of Computational Biology: Models and Inference
+([poster](https://nanx.me/posters/chromaclust-poster-hg48600.pdf)).
+
+## Reproducibility
 
 This project uses [renv](https://rstudio.github.io/renv/) to ensure reproducibility. The dependency information is store in `renv.lock`.
 
